@@ -1,13 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useEffect, useRef, useState } from "react";
 import Call from "./peer-peer";
 import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
-  <ChakraProvider>
-    <Call></Call>
-  </ChakraProvider>;
+  return (
+    <ChakraProvider>
+      <Call></Call>
+    </ChakraProvider>
+  );
 }
 
 export default App;
